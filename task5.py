@@ -6,14 +6,12 @@
 
 matrix = []
 array_sum = 0
-num_array = []
 
 for i in range(5):
     answer = input('Введите 4 элемента массива через пробел')
     new_array = answer.split(' ')
     new_array = [int(i) for i in new_array]
     for num in new_array:
-        num_array.append(num)
         array_sum += num
     new_array.append(array_sum)
     matrix.append(new_array)
