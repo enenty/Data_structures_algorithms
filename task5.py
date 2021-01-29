@@ -21,4 +21,3 @@ for line in matrix:
         print(f'{item:>5}', end='')
     print('')
 
-
